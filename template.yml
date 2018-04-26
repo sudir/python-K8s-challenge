@@ -9,4 +9,12 @@ spec:
   containers:
   - name: python-ctr
     image: sudirlay/images:matt-python-demo
+    resources:
+      requests:
+        memory: "64Mi"
+        cpu: "250m"
+      limits:
+        memory: "128Mi"
+        cpu: "1"
   restartPolicy: Never
+ 

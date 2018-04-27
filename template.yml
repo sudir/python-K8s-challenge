@@ -9,7 +9,7 @@ metadata:
 spec: 
   containers:
   - name: python-ctr
-    image:base_image 
+    image: base_image 
     resources:
       requests:
         memory: "ram_param"

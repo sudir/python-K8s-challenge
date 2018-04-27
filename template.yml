@@ -9,7 +9,7 @@ metadata:
 spec: 
   containers:
   - name: python-ctr
-    image: sudirlay/images:matt-python-demo
+    image:base_image 
     resources:
       requests:
         memory: "ram_param"
